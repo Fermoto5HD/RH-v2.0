@@ -1,0 +1,96 @@
+p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:100%;
+    vertical-align: baseline;
+}
+ 
+label p{
+    color: #333;
+    text-decoration: none;
+    display:block;
+    margin:0px 0;
+    font-size:1.25em;
+}
+ 
+#pagina-contacto{
+    margin: 0px;
+    overflow: hidden;
+    min-height: 100px;
+    color: rgb(255, 255, 255);
+}
+ 
+.correo-campo{
+    padding: 3px;
+}
+ 
+#correo-formulario{
+    margin: 10px;
+}
+ 
+.correo-campo, #correo-formulario textarea{
+    padding: 5px;
+    margin-right: 5px;
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 16px;
+}
+ 
+input:focus, textarea:focus{
+    outline: none;
+}
+ 
+#correo-formulario textarea{
+    min-height: 100px;
+    resize: none;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 700px;
+    min-height: 100px;
+}
+ 
+#correo-botonenviar{
+    padding: 4px;
+}
+ 
+#bottom_container{
+    overflow: hidden;
+}
+
+.correo-error, #correo-informacionenviado{border-radius: 5px; padding: 10px; margin-top: 10px; margin-bottom: 20px; max-width: 700px;}
+    .correo-error{background: rgba(225, 0, 0, 0.5);}
+    #correo-informacionenviado{background: rgba(0, 225, 0, 0.5); font-size: 14px; line-height: 20px;}
+.correo-error-titulo{font-size: 20px; line-height: 20px;}
+.correo-error-item {font-size: 14px; line-height: 20px;}
+.hide{display:none;}
+ 
+ 
+ 
+/*------------------------Boton enviar------------------------*/
+ 
+.boton-enviar, .boton-enviar:active {
+    width: 100%;
+    max-width: 710px;
+    margin-right: 5px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-size: 17px;
+}
+ 
+.boton-enviar:hover {
+    color: rgb(255, 255, 255);
+}
